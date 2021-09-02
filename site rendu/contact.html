@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="./stylecontact.css">
+    <link rel="stylesheet" href="./accueil.css">
+</head>
+<body>
+
+    <div>
+        <header>
+            <a href="accueil.html"><img src="https://www.adrar-formation.com/sites/all/themes/adrar/logo.png" width="130px" alt="Image logo"></a>
+            <img src="https://i1.wp.com/www.adrar-numerique.com/wp-content/uploads/2019/09/Bannie%CC%80re-web-AdrarADA2019-1.png?resize=554%2C167&ssl=1" alt="Image numerique">
+        </header>
+        
+            <nav>
+                <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="htmlarnaud.html">Html</a></li>
+            <li><a href="présentationCss.html">Css</a></li>
+            <li><a href="JS.html">Javascript</a></li>
+            <li><a href="API.html">API</a></li>
+            <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </div>
+
+        <h1>FORMULAIRE DE CONTACT</h1>
+ 
+        <form method="POST" action="monProgramme.php">
+
+            <div class="bloc1">
+    
+                <input type="text" name="prenom" placeholder="Prénom" >
+    
+                <input type="text" name="nom" placeholder="NOM">
+           
+                <input type="email" name="email" placeholder="Mail"> 
+    
+                <input type="tel" name="tel" placeholder="Numéro de téléphone">
+          
+                <label for="liste">Votre niveau de diplôme</label>
+                    <select name="liste" id="liste">
+                        <option value="option1">Brevet</option>
+                        <option value="option2">Baccalauréat</option>
+                        <option value="option3">Bac+2</option>
+                    </select>    
+    
+                <input type="submit" value="Envoyer"/>
+    
+            </div>
+    
+            <div class="bloc2">
+        
+        <legend>Votre message</legend>
+        <textarea placeholder="Votre message ici" rows="10" cols="50" ></textarea></textarea> <br>
+    
+    
+            </div>
+    
+        </form>
+
+        <footer>
+            <p>Suivez-nous sur les réseaux sociaux</p>
+            <ul>
+               <li><img src="linkdin.png" alt="linkdin" height="30px"></li>
+               <li><img src="facebook.png" alt="facebook" height="40px"></li>
+               <li><img src="twitter.png" alt="twitter" height="40px"></li>
+            </ul>
+        </footer>
+    
+</body>
+</html>
