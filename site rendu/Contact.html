@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body id="grey">
+    <header>
+        <nav>
+            <div><img src="../TPfinalhtmlcss/bannière.JPG" alt="bannière"></div>
+            <div class="logo_nav"><a href="Accueil.html">Accueil</a></div>
+            <div class="logo_nav"><a href="HTML.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_WSdtn3KLnPDYAHhVjp05Jrt_qgsfrLvyjf0ZCsGLCUTQD5It9-pjMbVGwkM9isiZXo&usqp=CAU" height="50px" width="50px" alt="" title="HTML"></a></div>
+            <div class="logo_nav"><a href="CSS.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBa6KD7gvSYeIoXXncum49dcaCeCa39IqUnWVmcoI_UoyJJ8WITrF5FcWTP81_peoCbjQ&usqp=CAU" alt="logo_css" height="50px" width="50px" title="CSS"></a></div>
+            <div class="logo_nav"><a href="JS4.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXv_8wGZDI5bMJRkSzKZUVoPfV4LQ-HjatQ&usqp=CAU" height="50px" width="50px" title="JavaScript"></a></div>
+            <div class="logo_nav"><a href="Contact.html">Contact</a></div>   
+        </nav>
+    </header>     
+    </header>
+    <h1>CONTACTEZ NOUS</h1>
+    <form action="POST" action="form.php">
+        <div> 
+            <label for="nom">Nom<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <input type="text" placeholder="Votre nom" required>
+        </div>
+        <div>
+            <label for="prenom">Prénom<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <input type="text" placeholder="Votre prénom" required>
+        </div>
+        <div>
+            <label for="form">Formation Choisie<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="liste">Vous êtes<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <select name="liste" id="liste">
+                <option value="no" aria-checked="true"> Aucun </option>
+                <option value="salarie">Salarié</option>
+                <option value="alternant">Alternant</option>
+                <option value="chomeur">Demandeur d'emploi</option>
+                <option value="Partenaire">Partenaire</option>
+                <option value="rh">Service RH</option>
+            </select>    
+        </div>
+        <div>
+            <label for="cv">Vous pouvez joindre un cv :</label>
+            <input type="file" name="cv" id="cv" accept=".png .jpg .doc .pdf" required>
+            <p>(les types de fichiers devront être en .jpg, .png, .pdf ou .doc)</p>
+        </div>
+        <div>
+            <label for="mail">Email<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <input type="email" name="mail" id="mail" required placeholder="uneformationpls@gmail.com">
+        </div>
+        <div>
+            <label for="tel">Téléphone<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <input type="phone" name="tel" id="tel" maxlength="10" required placeholder="0422521010">
+        </div>
+        <div>
+            <label for="postal">Code Postal<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <input type="text" name="postal" id="postal" maxlength="5" required>
+        </div>
+        <div>
+            <label for="adresse">Adresse<span class="star">*<span class="onstar">Ce champ est obligatoire</span></span></label>
+            <textarea name="adresse" id="adresse" cols="30" rows="10"></textarea required>
+        </div>
+        <div>
+            <label for="message">Message :</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="cond" id="cond" required><label for="checkbox">J'accepte que Adrar Formation et ses prestataires collectent et utilisent les données personnelles renseignées dans ce formulaire. Pour plus d'informations, vous pouvez consulter notre page politique de protection des données.</label>
+
+        </div>
+        <div>
+            <input type="submit" value="Envoyer">
+        </div>
+    </form>
+    
+</body>
+</html>

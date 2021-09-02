@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to bottom right, lightgrey, white);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to top left, white, lightgrey); 
+    animation: apparition 1.2s;      
+}       
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 20px;
+}
+
+.logo_nav:hover{
+    transform: scale(1.5);
+}
+
+img{
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 10px;
+    justify-items:center;
+}
+span{
+    color: red;
+}
+input{
+    height: 30px;
+}
+#cond{
+    height: 15px;
+    align-self: flex-start;
+}
+
+.star .onstar{
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(243, 229, 184,0.6);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 3px;
+    font-style: italic;
+}
+.star:hover .onstar{
+    visibility: visible;
+}
+
+@keyframes apparition{
+    0% {
+        transform:translateX(-2500px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
+}

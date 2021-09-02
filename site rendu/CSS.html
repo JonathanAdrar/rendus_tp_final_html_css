@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_accueil.css">
+</head>
+
+<body id="blue">
+    <header>
+        <nav>
+            <div><img src="../TPfinalhtmlcss/bannière.JPG" alt="bannière"></div>
+            <div class="logo_nav"><a href="Accueil.html">Accueil</a></div>
+            <div class="logo_nav"><a href="HTML.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_WSdtn3KLnPDYAHhVjp05Jrt_qgsfrLvyjf0ZCsGLCUTQD5It9-pjMbVGwkM9isiZXo&usqp=CAU" height="50px" width="50px" alt="" title="HTML"></a></div>
+            <div class="logo_nav"><a href="CSS.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBa6KD7gvSYeIoXXncum49dcaCeCa39IqUnWVmcoI_UoyJJ8WITrF5FcWTP81_peoCbjQ&usqp=CAU" alt="logo_css" height="50px" width="50px" title="CSS"></a></div>
+            <div class="logo_nav"><a href="JS4.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXv_8wGZDI5bMJRkSzKZUVoPfV4LQ-HjatQ&usqp=CAU" height="50px" width="50px" title="JavaScript"></a></div>
+            <div class="logo_nav"><a href="Contact.html">Contact</a></div>   
+        </nav>
+    </header>
+<section id="contenu">
+    <!--1ere div logo-->
+    <div class="img_center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBa6KD7gvSYeIoXXncum49dcaCeCa39IqUnWVmcoI_UoyJJ8WITrF5FcWTP81_peoCbjQ&usqp=CAU"
+            alt="logo_css">
+    </div>
+
+    <!--2 div texte explicatif-->
+    <div>
+        <h2>Qu'est-ce que le CSS?</h2>
+        <p>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un
+            langage informatique qui décrit la présentation des documents HTML et XML (une sorte d'habillage esthétique
+            du site).
+            Le concept de feuille de style est présent dès l'origine du World Wide Web : le premier navigateur web
+            WorldWideWeb permet de mettre en forme les documents à l'aide de ce qui serait aujourd'hui considéré comme
+            une « feuille de style utilisateur ».
+        </p>
+        <p>
+            Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des
+            années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les
+            navigateurs web dans les années 2000.
+            Contrairement aux logiciels, les spécifications CSS ne sont pas développées par versions successives, qui
+            permettraient à un navigateur de se référer à une version en particulier. CSS est développé par « niveaux »,
+            ce qui contraint chaque nouveau niveau à intégrer le précédent, et chaque implémentation à être compatible
+            avec la précédente : CSS1 est donc développé pour être un sous-ensemble de CSS2, qui est lui-même développé
+            pour être un sous-ensemble de CSS3. Ceci explique en partie la lenteur de l'avancement normatif de CSS
+            Aujourd'hui nous en sommes à sa version 3.
+        </p>
+        <p>
+            L'un des objectifs majeurs des CSS est de permettre la mise en forme hors des documents. Il est par exemple
+            possible de ne décrire que la structure d'un document en HTML, et de décrire toute la présentation dans une
+            feuille de style CSS séparée. Les styles sont appliqués au dernier moment, dans le navigateur web des
+            visiteurs qui consultent le document. Cette séparation fournit un certain nombre de bénéfices, permettant
+            d'améliorer l'accessibilité, de changer plus facilement de présentation, et de réduire la complexité de
+            l'architecture d'un document.
+            La structure du document et la présentation peuvent être gérées dans des fichiers séparés.
+            La conception d'un document se fait dans un premier temps sans se soucier de la présentation, ce qui permet
+            d'être plus efficace.
+            Dans le cas d'un site web, la présentation est uniformisée : les documents (pages HTML) font référence aux
+            mêmes feuilles de styles. Cette caractéristique permet de plus une remise en forme rapide de l'aspect
+            visuel.
+            Un même document peut donner le choix entre plusieurs feuilles de style, par exemple une pour l'impression
+            et une pour la lecture à l'écran. Certains navigateurs web permettent au visiteur de choisir un style parmi
+            plusieurs.
+            Le code HTML est considérablement réduit en taille et en complexité, puisqu'il ne contient plus de balises
+            ni d'attributs de présentation.
+        </p>
+
+        <h2>Comment ça fonctionne ?</h2>
+        <p>
+            Le CSS est un langage interprété par le navigateur qui sert à mettre en forme une page web.
+            Le navigateur va « lire » les instructions et appliquer notre « style », une esthétique, à notre page.
+            Avec le CSS, nous pouvons agir par exemple sur: les couleurs, les tailles, le placement des éléments sur la page, les polices de caractères (font) etc…
+        </p>
+        
+        <p>
+            Tout comme le HTML, le langage CSS utilise une feuille de code à part, que l'on doit "lier" à celle du HTML, grâce à une balise link dans le head.
+        </p>
+        <div class="img_center">
+            <img  src="../TPfinalhtmlcss/css_code_liant.JPG" alt="code liant">
+        </div>
+        <p>
+            Nous avons:
+	            <ul>
+                    <li>En rouge: Le sélecteur => Permet de choisir sur qui s’applique le style</li>
+                    <li>En vert: Les accolades => Délimite les propriétés pour un élément</li>
+                    <li>En bleu: La propriété => Les effets graphique qui vont être appliqués</li>
+                    <li>En jaune: La valeur => La valeur (un nombre, une couleur, …)</li>
+                    <li>En rose: Le séparateur => Le point virgule « ; » sert à séparer les propriétés entre elles</li>
+                </ul>
+            Ici, nous appliquons donc la couleur « magenta » au texte de nos balises <p>
+        </p>
+        <div class="img_center">
+            <img src="../TPfinalhtmlcss/css_code_paragraphe.JPG" alt="">
+        </div>
+    </div>
+
+
+    <!--3 div img et code-->
+    <div class="img_center">
+        <h2>Exemple de code CSS:</h2>
+        <img src="../TPfinalhtmlcss/css_code.JPG" alt="css_code" height="400px" width="600px">
+    </div>
+
+    <!--4 div video -->
+    <div class="img_center">
+        <h2>Envie d'en savoir plus ?</h2>
+        <iframe height="400px" width="600px" src="https://www.youtube.com/embed/PE8FQ6zihhw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+</section>
+
+    <footer>
+        <nav>
+            <div><a href="https://www.google.com/maps/place/ADRAR+Formation/@43.551312,1.483578,14z/data=!4m5!3m4!1s0x0:0x100c24fa51a58a9b!8m2!3d43.5513074!4d1.4835806?hl=fr"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Google_Maps_icon_%282015-2020%29.svg/1200px-Google_Maps_icon_%282015-2020%29.svg.png" alt="Google Map" height="50px" width="50px" target="_blank"></a></div>
+            <div><a href="https://www.facebook.com/ADRARformation/"><img src="https://loptimisme.pro/wp-content/uploads/2020/06/facebook-logo-png-transparent-background.png" alt="Facebook" height="50px" width="50px" target="_blank"></a></div>
+            <div><a href="https://twitter.com/adrarformation"> <img src="https://image.flaticon.com/icons/png/512/124/124021.png" alt="Twitter" height="50px" width="50px" target="_blank"></a></div>
+            <div><a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFwc-mXZ7fmsAAAAXuWess4CmvP6Ustk2ZKKlfVDXQWWC9Q-KzzjJcm946S_140Y3_mzN9hq4LPm4osmoWsQf8kq1ZGAQzB7f5WGUfEaqsM0ZIgY5TXn4xFQzBJjV09Q3CdirQ=&originalReferer=https://www.adrar-formation.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fadrar-formation" target="_blank"><img src="https://www.portlarochelle.com/wp-content/uploads/2019/03/linkedin.png" alt="linkedin" height="50px" width="50px"></a></div>
+            <div><a href="https://grafikart.fr/formations/css">Grafikart</a></div>
+            <div><a href="https://developer.mozilla.org/fr/docs/Web/CSS">Developer.Mozilla</a></div>
+            <div><a href="https://www.w3schools.com/css/default.asp">W3Schools (en anglais)</a></div>
+            <div><a href="https://www.legifrance.gouv.fr/">Mentions Légales</a></div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
