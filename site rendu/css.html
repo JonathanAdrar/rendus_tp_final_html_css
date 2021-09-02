@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="icon" type="image/png" href="image/Logo-final3.png"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./index.html"><img src="image/Logo-final3.png" alt="logo" id="logo"></a></div>
+                <div><a href="./index.html">Accueil</a></div>
+                <div><a href="./html.html">HTML</a></div>
+                <div id="active"><a href="./css.html">CSS</a></div>
+                <div><a href="./js.html">JAVASCRIPT</a></div>
+                <div><a href="./api.html">API</a></div>
+            </div>
+            <div>
+                <div id="contact"><a href="./contact.html">Contact</a></div>
+            </div>
+        </nav>
+    </header>
+    <div id="containerCss">
+        <article>
+            <img src="https://www.develop4fun.fr/wp-content/uploads/2020/01/image-css.jpg" alt="css" width="500px">
+            <div>
+                <h1 class="translateL">LE CSS C'EST QUOI?</h1>
+            </div>
+        </article>
+        <article>
+            <img src="image/html_avec_css.png" alt="html sans css vs html avec css">
+            <div>
+                <h2 class="translateR">Cascading Style Sheets</h2>
+                <p> C'est un langage informatique qui vient compléter un document HTML et permet de définir les styles associés à ces même documents.
+                    Il permet la création de site web responsive mais aussi de gérer la mise en forme et la mise ne page d'un site en choisissant la couleur du texte, la police utilisée, la taille du texte, les bordures, le fond… 
+                    Il permet egalement, par exemple, d'indiquer où vous voulez que votre menu soit, sa largeur, que l'en-tête du site soit calé en haut et qu'il soit toujours visible, etc.
+                </p>
+            </div>
+        </article>
+        <article>
+            <h2>Histoire du CSS</h2>
+            <p>Aux débuts du Web, CSS n'existait pas. En fait, il n'y avait initialement que le langage HTML. Le HTML est né en 1991 et CSS en 1996. La spécification CSS 1 final est donc publié en 1996 mais 
+                permet seulement de faire une mise en style, en modifiant la police et sa taille, la couleurs, les caractères, .. par exemple . 
+                CSS 2 est sortie en 1998 et a ajouté de nouvelles propriétés mais une version revue est sorti quelques temps après suite à des problèmes d’implémentation. 
+                Le CSS 3 est venue enrichir le CSS existant en englobant tous les aspects du CSS 1 et 2. Le CSS 3 est en évolution consente et de nouveaux modules sont régulièrement ajouté à la norme.
+            </p>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/PE8FQ6zihhw?list=PLjwdMgw5TTLVjTZQocrMwKicV5wsZlRpj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <article>
+            <h2>Exemples simple</h2>
+            <h4>Permet de mettre une couleur de fond et mettre en gras les paragraphes:</h4>
+            <p class="code">p { <br>
+                background-color: #969696; <br>
+                font-weight: bold;<br>
+                }
+            </p>
+            <h4>Permet de changer la taille du titre et de le centrer</h4>
+            <p class="code">h1 { <br>
+                font-size: 25px;  <br>
+                text-align: center; <br>
+                }
+            </p>
+            <h4>Justifier le paragraphe dans la balise div et met une marge intérieur:</h4>
+            <p class="code">div p{ <br>
+                text-align: justify; <br>
+                padding: 10px; <br>
+                }
+            </p>
+        </article>
+    </div>
+    <footer>
+        <div>
+            <h3>Suivez-nous sur les réseaux sociaux</h3>
+        </div>
+        <div>
+            <a target="blank" href ="https://www.facebook.com/ADRARformation/"><img src="image/fb.png"/></a>
+            <a target="blank" href ="https://www.linkedin.com/company/adrar-formation"><img src="image/linkedin.png"/></a>
+            <a target="blank" href ="https://twitter.com/adrarformation"><img src="image/twitter.png"/></a>
+        </div>
+        <ul>
+            <li>© 2021 AdrarCDC.</li>
+            <li><a href="https://www.adrar-formation.com/mentions-legales">Mentions-légales</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

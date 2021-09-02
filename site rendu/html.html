@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="icon" type="image/png" href="image/Logo-final3.png"/>
+    <title>HTML</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./index.html"><img src="image/Logo-final3.png" alt="logo" id="logo"></a></div>
+                <div><a href="./index.html">Accueil</a></div>
+                <div id="active"><a href="./html.html">HTML</a></div>
+                <div><a href="./css.html">CSS</a></div>
+                <div><a href="./js.html">JAVASCRIPT</a></div>
+                <div><a href="./api.html">API</a></div>
+            </div>
+            <div>
+                <div id="contact"><a href="./contact.html">Contact</a></div>
+            </div>
+        </nav>
+    </header>
+
+        <div id="container">
+        <aside></aside>
+        <div id="corphtml">   
+        <article>
+                <div>
+                    <img src="image/HTML5.png" alt="logo html" width="300px">
+                </div><div>
+                    <h1 class="translateL">LE HTML C'EST QUOI?</h1>
+                </div>
+                <p>
+                    L'HyperText Markup Language, HTML, désigne un type de langage informatique descriptif. <br>
+                    Il s'agit plus précisément d'un format de données utilisé dans l'univers d'Internet pour la mise en forme des pages Web. <br>
+                    Il permet, entre autres, d'écrire de l'hypertexte, mais aussi d'introduire des ressources multimédias dans un contenu<br>
+                </p>
+            </article>
+
+            <article>
+                <div>
+                    <img src="image/exemple.jpg" alt="logo html" width="300px">
+                    </div><div>
+                    <h1 class="translateR">NAISSANCE DU HTML</h1>
+                </div>
+                        <p>
+                            1989-1992 : Origine. HTML est une des trois inventions à la base du World Wide Web,<br>
+                             avec le Hypertext Transfer Protocol (HTTP) et les adresses web (URL). <br>
+                             HTML a été inventé pour permettre d'écrire des documents hypertextuels <br>
+                             liant les différentes ressources d'Internet avec des hyperliens.<br>
+                        </p>
+            </article>
+
+            <article>
+                <div>
+                    <img src="image/exemple2.png" alt="logo html" width="300px">
+                </div><div>
+                    <h1>SON UTILITÉ</h1>
+                </div>
+                        <p>
+                            Le HTML sert à structurer la page. Il indique aux crawlers comment <br>
+                            ils doivent comprendre la page et quels éléments elle contient.<br> 
+                            Le CSS contient la feuille de style de la page. <br>
+                            Les indications qu'il donne concernent exclusivement le design <br>
+                            et l'apparence des éléments de la page.<br>
+                        </p>
+            </article>
+
+            <article>
+                <div>
+                    <iframe width="700" height="400" src="https://www.youtube.com/embed/oEAuNzWXRjM?list=PLjwdMgw5TTLUeixVGPNl1uZNeJy4UY6qX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div><div>
+                    <h1>LES DIFFÉRENTS EXEMPLES DE LIGNES DE CODE EN HTML</h1>
+                </div>
+                        <p>
+                            BALISES DE PREMIER NIVEAU:<br><br>
+
+                            Ces balises sont indispensables pour pouvoir commencer à coder une page web en HTML.<br> 
+                            Elles vont permettre d’indiquer aux différents navigateurs Web qu’il s’agit de pages en HTML et de séparer l’en-tête du corps de la page.<br><br>
+                            
+                            &lthtml&gt – &lt/html&gt : balise principale de toutes les pages web.<br>
+                            &lthead&gt – &lt/head&gt : en-tête de la page<br>
+                            &ltbody&gt – &lt/body&gt : corps de la page<br><br>
+
+                            BALISES D’EN-TETE:<br><br>
+
+                            Ces balises sont toutes situées dans l’en-tête de la page Web,<br> 
+                            c’est-à-dire entre la balise &lthead&gt et la balise &lt/head&gt.<br> 
+                            Vous remarquerez que quand un contenu se situe entre deux balises html, la deuxième est quasi-identique à la première à ceci près qu’il s’agit d’une balise fermante.<br>
+                            Une balise fermante reprend la balise d’ouverture en y ajoutant un slash (/) avant l’intitulé de la balise et après le signe inférieur (&lt).<br> 
+                            Comme ici avec le &lthead&gt qui est la balise d’ouverture et le &lt/head&gt qui est la balise de fermeture.<br> 
+                            Certaines balises sont dites auto-fermantes (comme la balise image (img)) par exemple.<br><br>
+                            
+                            &ltlink /&gt : liaison avec une feuille de style<br>
+                            &ltmeta /&gt  : métadonnées de la page web (charset, mots-clés, <br>
+                            c’est aussi parmi ces balises que l’on retrouve la balise meta description que nous avons<br>
+                            déjà abordé sur ce blog pour vous en présenter les intérêts en matière de référencement naturel, même si cette dernière, rappelons-le pour nos fidèles amis lecteurs du SEO,<br>
+                             n’est pas directement interprétée par l’algorithme du moteur de recherche de Google…)<br>
+                            &ltscript&gt – &lt/script&gt: code JavaScript<br>
+                            &ltstyle&gt – &lt/style&gt : code CSS<br>
+                            &lttitle&gt – &lt/title&gt : titre de la page. La fameuse balise title ! Comme indiqué à de nombreuses reprises,<br>
+                            renseignez bien cette balise. Elle est très importante pour le référencement naturel ! <br>
+                            Même si actuellement vous en êtes à réfléchir quant à savoir comment vous devez coder un site Web,<br>
+                            que ce soit votre futur site personnel ou celui d’une société ou association pour laquelle vous travaillez,<br>
+                            vous allez voir, le SEO va en théorie vite devenir un sujet qui va attirer toute votre attention.<br><br>
+                            BALISES DE STRUCTURATION DU TEXTE:<br><br>
+                            Ces balises permettent de disposer des blocs dans la page contenant du texte, des images ou encore des menus.<br>
+                            
+                            &ltabbr&gt – &lt/abbr&gt : abréviation<br>
+                            &ltblockquote&gt – &lt/blockquote&gt : citation longue<br>
+                            &ltq&gt – &lt/q&gt : citation courte<br>
+                            &ltcite&gt – &lt/cite&gt : citation du titre d’une œuvre ou d’un événement<br>
+                            &ltsub&gt – &lt/sub&gt  : mise en indice<br>
+                            &ltsup&gt – &lt/sup&gt : mise en exposant<br>
+                            &lth1&gt – &lth6&gt : titre de différents niveaux<br>
+                            &ltimg /&gt : image grâce aux attributs src (adresse de l’image) et alt (texte de remplacement)<br>
+                            &ltmark&gt – &lt/mar&gt : mise en valeur visuelle (le texte est surligné)<br>
+                            &ltstrong&gt – &lt/strong&gt : mise en valeur forte (le texte est en gras)<br>
+                            &ltem&gt – &lt/em&gt : mise en valeur faible (le texte est en italique)<br>
+                            &ltfigure&gt – &lt/figure&gt : figure (image, code…)<br>
+                            &ltfigcaption>&gt – &lt/figcaption&gt : description de la figure<br>
+                            &ltaudio&gt – &lt/audio&gt : son<br>
+                            &ltvideo&gt – &lt/video&gt : vidéo<br>
+                            &ltsource&gt – &lt/source&gt : indique un format possible pour les balises &ltaudio&gt et &ltvideo&gt<br>
+                            &lta&gt  – &lt/a&gt : lien hypertexte grâce à l’attribut href.<br>
+                            &ltbr /&gt  : retour à la ligne<br>
+                            &ltp&gt  – &lt/p&gt: paragraphe<br>
+                            &lthr /&gt  : ligne de séparation horizontale<br>
+                            &ltaddress&gt – &lt/adresss : adresse de contact<br>
+                            &ltdel&gt – &lt/del&gt : texte supprimé<br>
+                            &ltins&gt – &lt/ins&gt : texte inséré<br>
+                            &ltdfn&gt – &lt/dfn&gt : définition<br>
+                            &ltkbd&gt – &lt/kbd&gt : indiquer un code que doit taper le visiteur<br>
+                            &ltprogress&gt – &lt/progress&gt : barre de progression<br>
+                            &lttime&gt – &lt/time&gt : date ou heure<br>
+                            &ltpre&gt – &lt/pre&gt : le texte à l’intérieur de la balise sera sous forme de code<br><br>
+
+
+                            BALISES DE LISTES:<br><br>
+
+
+                            Ces balises permettent de créer des listes (numérotées, à puces…).<br>
+                            
+                            &ltul&gt – &lt/ul&gt: liste à puces, non numérotée<br>
+                            &ltol&gt – &lt/ol&gt : liste numérotée<br>
+                            &ltli&gt – &lt/li&gt: élément de la liste à puces<br>
+                            &ltdl&gt – &lt/dl&gt : liste de définitions<br>
+                            &ltdt&gt –  &lt/dt&gt : définition du terme<br>
+                            Balises de tableau <br>
+                            Ces balises ont pour but de créer un tableau structuré avec des lignes et des colonnes.<br>
+                            
+                            &lttable&gt – &lt/table&gt : tableau<br>
+                            &ltcaption&gt – &lt/caption&gt : titre du tableau<br>
+                            &lttr&gt – &lt/tr&gt: ligne de tableau<br>
+                            &ltth&gt – &lt/th&gt : cellule d’en-tête<br>
+                            &lttd&gt – &lt/td&gt : cellule<br>
+                            &ltthead&gt &lt/thead&gt : section de l’en-tête du tableau<br>
+                            &lttbody&gt – &lt/tbody&gt : section du corps du tableau<br>
+                            &lttfoot&gt – &lt/tfoot&gt : section du pied du tableau<br><br>
+
+                            BALISES DE FORMULAIRE:<br><br>
+
+                            Ces balises permettent de créer des formulaires de contact par exemple.<br>
+                            
+                            &ltform&gt – &lt/form&gt : délimite un formulaire (method : indique la méthode d’envoi du formulaire (get ou post). <br>
+                            Si vous ne savez pas quoi utiliser, mettez post / action : la page vers laquelle le visiteur doit être redirigé lorsqu’il a validé votre formulaire. )<br>
+                            &ltfieldset&gt – &lt/fieldset&gt : permet de regrouper plusieurs éléments d’un formulaire<br>
+                            &ltlegend&gt – &lt/legend&gt : titre d’un groupe dans un formulaire<br>
+                            &ltlabel&gt – &lt/label&gt : titre d’un élément de formulaire<br>
+                            &ltinput /&gt : champ de formulaire grâce à l’attribut type<br>
+                            &lttextarea&gt – &lt/textarea&gt : zone de saisie multiligne grâce aux attributs rows et cols (nombre de lignes et de colonnes)<br>
+                            &ltselect&gt – &lt/select&gt : liste déroulante<br>
+                            &ltoption&gt – &lt/option&gt : élément d’une liste déroulante<br>
+                            &ltoptgroup&gt – &lt/optgroup&gt : groupe d’éléments d’une liste déroulante<br><br>
+
+                            BALISES SECTIONNANTES:<br><br>
+
+                            Ces balises nous sert à construire les éléments de base d’un site web.<br>
+                            
+                            &ltheader&gt – &lt/header&gt : en-tête<br>
+                            &ltnav&gt – &lt/nav&gt: liens principaux de navigation<br>
+                            &ltfooter&gt – &lt/footer&gt : pied de page<br>
+                            &ltsection&gt – &lt/section&gt : section de page<br>
+                            &ltarticle&gt – &lt/article&gt : article (contenu autonome)<br>
+                            &ltaside&gt – &lt/aside&gt : informations complémentaires<br><br>
+
+                            BALISES GENERIQUES:<br><br>
+
+                            Il y a deux balises génériques : l’une est inline, l’autre est block. Elles n’ont pas de sens sémantique.<br>
+                            
+                            &ltspan&gt – &lt/span&gt : balise générique de type inline<br>
+                            Autorise les autres éléments à venir s’asseoir à gauche et à droite.<br>
+                            
+                            Ne se redimensionne pas avec width et height.<br>
+                            
+                            Respecte les marges gauches et droites, mais pas les marges haut et bas.<br>
+                            
+                             
+                            
+                            &ltdiv&gt – &lt/div&gt : balise générique de type block<br>
+                            Force un passage à la ligne.<br>
+                            
+                            Ne tolère pas d’élément à gauche ou à droite.<br>
+                            
+                            Se redimensionne avec width et height.<br>
+                            
+                            Respecte toutes les marges.<br><br>
+                            
+                            ATTRIBUTS DES BALISES GENERIQUES:<br><br>
+                            Ces balises ont un intérêt uniquement si vous leur associez un attribut class, id ou style:<br>
+                            
+                            class: indique le nom de la classe CSS à utiliser.<br>
+                             
+                            
+                            id: donne un nom à la balise. Ce nom doit être unique sur toute la page car il permet d’identifier la balise. <br>
+                            Vous pouvez vous servir de l’ID pour de nombreuses choses, par exemple pour créer un lien vers une ancre, pour un style CSS de type ID, <br>
+                            pour des manipulations en JavaScript, etc.<br>
+                             
+                            
+                            style: cet attribut vous permet d’écrire directement le code CSS à appliquer dans le code HTML. <br>
+                             Cependant, il est préférable de ne pas utiliser cet attribut et de passer à la place par une feuille de style externe, <br>
+                             car cela rend votre site plus facile à mettre à jour par la suite.<br>
+                             
+                            
+                            Testez chacune des balises pour voir le résultat concret. Les balises sont le squelette du HTML. Et bien entendu, sans squelette,<br>
+                             rien ne tient et par conséquent la page web s’effondre. Vous ne pourrez jamais faire sans. Faites bien attention à fermer les balises !<br>
+                              En un rien de temps, vous deviendrez un vrai professionnel du développement web en HTML. <br>
+                              Il ne vous restera alors plus qu’à maîtriser le CSS pour donner à vos fichiers HTML la forme que vous souhaitez.<br>
+                            
+                            Dernier petit conseil pour la route : veillez à bien indenter votre code pour y voir plus clair sinon vous serez vite perdu.<br>
+                        </p>
+            </article>
+        </div>
+            <aside></aside>
+        </div>
+        
+    <footer>
+        <div>
+            <h3>Suivez-nous sur les réseaux sociaux</h3>
+        </div>
+        <div>
+            <a target="blank" href ="https://www.facebook.com/ADRARformation/"><img src="image/fb.png"/></a>
+            <a target="blank" href ="https://www.linkedin.com/company/adrar-formation"><img src="image/linkedin.png"/></a>
+            <a target="blank" href ="https://twitter.com/adrarformation"><img src="image/twitter.png"/></a>
+        </div>
+        <ul>
+            <li>© 2021 AdrarCDC.</li>
+            <li><a href="https://www.adrar-formation.com/mentions-legales">Mentions-légales</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

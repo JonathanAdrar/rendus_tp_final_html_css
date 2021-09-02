@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    font-weight: bolder;
+}
+
+#logo {
+    height: 70px;   
+}
+
+header nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #4b4b4b;
+    height: 70px;
+    align-items: center;
+}
+
+header nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+header nav div:first-of-type {
+    margin-left: 100px;
+}
+
+header nav div:last-of-type {
+    margin-right: 100px;
+}
+
+header nav div div {
+    display: flex;
+    color: white;
+}
+
+header nav div div a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    padding: 0px 20px;
+    height: 70px;
+    align-items: center;
+}
+
+header nav div div:hover {
+    background-color: #969696;
+    color: black;
+}
+
+#contact {
+    background-color: #969696;
+}
+
+#active { /*indique la page actuelle*/
+    background-color: #f39200;
+}
+
+@media screen and (max-width:1100px) {
+    header nav div:first-of-type {
+        margin-left: 0;
+    }
+    header nav div:last-of-type {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    header nav div:first-of-type {
+        flex-direction: column;
+    }
+    header nav div:last-of-type {
+        flex-direction: column;
+    }
+    header nav, header {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    header nav div div a, #contact{
+            height: 20px;
+    }
+
+    header nav div div:first-of-type a{
+        height: 70px;
+    }
+}

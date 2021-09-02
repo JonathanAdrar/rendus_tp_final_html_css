@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/Logo-final3.png"/>
+    <title>JavaScript</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./index.html"><img src="image/Logo-final3.png" alt="logo" id="logo"></a></div>
+                <div><a href="./index.html">Accueil</a></div>
+                <div><a href="./html.html">HTML</a></div>
+                <div><a href="./css.html">CSS</a></div>
+                <div id="active"><a href="./js.html">JAVASCRIPT</a></div>
+                <div><a href="./api.html">API</a></div>
+            </div>
+            <div>
+                <div id="contact"><a href="./contact.html">Contact</a></div>
+            </div>
+        </nav>
+    </header>
+    <div id="corp"> <!--Corp de la page-->
+        <aside></aside>
+        <div>
+            <img src="image/js-logo.png" alt="logoJs">
+            <h1 class="translateL">Qu'est ce que le JavaScript ?</h1>
+            <p>JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives. JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web. Une grande majorité des sites web l'utilisent, et la majorité des navigateurs web disposent d'un moteur JavaScript dédié pour l'interpréter.<br>
+            Le code JavaScript a besoin d'un objet global pour y rattacher les déclarations (variables et fonctions) avant d'exécuter des instructions. La situation la plus connue est celle de l'objet window obtenu dans le contexte d'une page web. D'autres environnements sont possibles dont celui fourni par Adobe ou l'environnement Node.js</p>
+            <iframe class="translateR" width="700" height="400" src="https://www.youtube.com/embed/PIU_2SBSZgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>Historique du JavaScript</h1>
+            <p>Javascript est un langage de programmation défini en 10 jours et en 1995 par Brendan Eich au sein de la société Netscape. Javascript a été rapidement incorporé dans le navigateur que produisait cette société. Procurer un langage s’exécutant dans le navigateur s’est avéré une riche idée permettant de manipuler dynamiquement les entités propres au navigateur, à savoir textes et formulaires à la fois en contenu et en apparence.<br>
+            Javascript a longtemps souffert d’implantations concurrentes et divergentes : au début étaient Javascript de Netscape, JScript de Microsoft et ActionScript de Macromedia. Un effort de standardisation, nommé ECMA-262, débuté en 1997, culmine aujourd’hui avec la norme actuelle, ECMAScript 2015 (aussi dite ES6 car c’est la sixième version) qui, adoptée en juin 2015, précède même les implantations actuellement déployées.</p>
+            <h1>Exemple simple</h1>
+            <p>Ecrire un texte :</p>
+            <p class="code">
+                document.write("Bonjour de Javascript");
+            </p>
+            <p>Afficher une boite d'arlerte :</p>
+            <p class="code">
+                function afficheMessage() {<br>
+                <br>
+                alert('Première ligne...\nDeuxième ligne...');<br>
+                <br>
+                }
+            </p>
+            <p>Modifier une image :</p>
+            <p class="code">
+                &ltbutton onclick="document.getElementById('myImage').src='pic_bulbon.gif'"&gtTurn on the light&lt/button&gt <br>
+                <br>
+                &ltimg id="myImage" src="pic_bulboff.gif" style="width:100px"&gt <br>
+                <br>
+                &ltbutton onclick="document.getElementById('myImage').src='pic_bulboff.gif'"&gtTurn off the light&lt/button&gt <br>
+            </p>
+        </div>
+        <aside></aside>
+    </div>
+    <footer>
+        <div>
+            <h3>Suivez-nous sur les réseaux sociaux</h3>
+        </div>
+        <div>
+            <a target="blank" href ="https://www.facebook.com/ADRARformation/"><img src="image/fb.png"/></a>
+            <a target="blank" href ="https://www.linkedin.com/company/adrar-formation"><img src="image/linkedin.png"/></a>
+            <a target="blank" href ="https://twitter.com/adrarformation"><img src="image/twitter.png"/></a>
+        </div>
+        <ul>
+            <li>© 2021 AdrarCDC.</li>
+            <li><a href="https://www.adrar-formation.com/mentions-legales">Mentions-légales</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
