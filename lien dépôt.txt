@@ -1,0 +1,6 @@
+1er dépôt utilisé = https://github.com/bohllmusic/EVAL-HTML-CSS-KAT-MATT-PAUL.git
+attention ce groupe a rencontre des problèmes sur leur premier dépôt git. 
+En effet ils ont oublié de changé de branche et donc d'effectuer leur travail sur leur branche respective, 
+ce qui a engendré des pertes de codes html ou css lors de leur pull sur leurs dépôts en local.
+
+2ème dépôt utilisé = https://github.com/bohllmusic/2-EVAL-KAT-MAT-PAUL-2.git
